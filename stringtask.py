@@ -31,5 +31,7 @@ print(len(text))
 
 #Having the string r = '["E","W","C"]' #Manipulate it to display EWC
 r='["E","W","C"]'
-r=r.replace("' "," ")
+r=r.replace(", "," ")
+r=r.replace(' " ','')
+r=r.replace("[]","")
 print(r)
