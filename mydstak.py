@@ -27,4 +27,16 @@ print(my_ds[2])
 #print maths
 print(my_ds[3][1])
 
+#In the dictionary with the key currency, add another key “amount” with value 90
+my_ds=my_ds[3][2]['amount']='90'
+print(my_ds)
 
+#Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
+ #    Hint: Strings can be reversed using [::]
+my_ds[4]
+
+
+#Change the name “John” to “Jane” .
+my_ds[5][1]=list(my_ds[5][1])
+my_ds[5][1]='Jane'
+print(my_ds)
