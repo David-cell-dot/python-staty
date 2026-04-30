@@ -28,3 +28,16 @@ print(my_dic)
 #pop item-removes last added
 my_dic.popitem()
 print(my_dic)
+
+stocks={
+ 'omo':100,
+ 'sugar':45,
+ 'flour':67,
+ 'tea leaves':80,
+ 'milk':8,
+ 'bread':3,
+ 'salt':0
+ 
+}
+
+print(stocks)
